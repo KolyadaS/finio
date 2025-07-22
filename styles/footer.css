@@ -1,0 +1,145 @@
+.footer {
+  background: var(--color-bg-dark);
+  color: var(--color-text-extra-light);
+}
+
+.footer__wrapper-1 {
+  min-width: 328px;
+  max-width: var(--max-width);
+  padding-top: 80px;
+  margin: 0 auto 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(328px, 1fr));
+  gap: 48px 24px;
+}
+
+.finio__p {
+  margin: 16px 0 0;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 23.8px;
+  opacity: 0.7;
+}
+
+.menu-small__ul {
+  margin: 0;
+  padding: 0;
+}
+
+.menu-small__li {
+  list-style-type: none;
+  margin-bottom: 8.5px;
+}
+
+.menu-small__li:last-child {
+  margin-bottom: 0;
+}
+
+.menu-small__li a {
+  text-decoration: none;
+  color: var(--color-text-extra-light);
+  opacity: 0.5;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 23.8px;
+}
+
+.docs__ul {
+  margin: 0;
+  padding: 0;
+}
+
+.docs__li {
+  list-style-type: none;
+  margin-bottom: 8.5px;
+}
+
+.docs__li:last-child {
+  margin-bottom: 0;
+}
+
+.docs__li a {
+  text-decoration: none;
+  color: var(--color-text-extra-light);
+  opacity: 0.5;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 23.8px;
+}
+
+.contacts__ul {
+  margin: 0;
+  padding: 0;
+}
+
+.contacts__li {
+  list-style-type: none;
+  margin-bottom: 8.5px;
+  color: var(--color-text-extra-light);
+  opacity: 0.7;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 23.8px;
+}
+
+.contacts__li:last-child {
+  margin-bottom: 0;
+}
+
+.contacts__li a {
+  text-decoration: none;
+  color: var(--color-text-extra-light);
+  opacity: 0.5;
+}
+
+.footer .menu__hr {
+  margin-bottom: 40px;
+}
+
+.footer__wrapper-2 {
+  min-width: 328px;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 23.8px;
+  opacity: 0.7;
+}
+
+.footer__payment-systems {
+  width: 254px;
+  height: 37px;
+}
+
+@media (max-width: 1440px) {
+  .footer__wrapper-1 {
+    margin: 0 23px 48px 24px;
+  }
+
+  .footer__wrapper-2 {
+    margin: 0 23px 0 24px;
+  }
+
+  .footer .menu__hr {
+    margin-bottom: 48px;
+  }
+}
+
+@media (max-width: 668px) {
+  .footer__wrapper-2 {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    gap: 24px;
+  }
+
+  .footer__wrapper-2 {
+    padding-top: 48px;
+    padding-bottom: 64px;
+  }
+}

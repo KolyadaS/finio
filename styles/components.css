@@ -1,0 +1,63 @@
+/* Кнопки */
+
+.button {
+  padding: 12px 32px;
+  background-color: var(--color-primary);
+  color: var(--color-text-extra-light);
+  border-radius: 47px;
+  border: none;
+  font-size: 17px;
+  font-weight: 800;
+  line-height: 23.8px;
+  cursor: pointer;
+}
+
+.button_light {
+  background-color: var(--color-text-extra-light);
+  color: var(--color-primary);
+}
+
+@media (max-width: 928px) {
+  .button {
+    padding: 12.5px 23.5px;
+    border-radius: 34px;
+  }
+}
+
+/* Вертикальный разделитель */
+
+.hr {
+  max-width: var(--max-width);
+  margin: 0;
+  border: 1px solid var(--color-text-middle);
+  opacity: 0.08;
+  transform: scaleY(0.5);
+}
+
+.hr_header {
+  border: 1px solid var(--color-text-extra-light);
+  opacity: 0.16;
+  display: none;
+}
+
+.hr_mobile {
+  margin: 0 auto;
+}
+
+.hr_footer {
+  margin: 0 auto;
+  border: 1px solid var(--color-text-extra-light);
+  opacity: 0.08;
+}
+
+@media (max-width: 1440px) {
+  .hr_footer {
+    margin: 0 23px 0 24px;
+  }
+}
+
+@media (max-width: 1120px) {
+  .hr_header {
+    display: block;
+  }
+}

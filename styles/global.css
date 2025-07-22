@@ -1,0 +1,26 @@
+:root {
+  --color-text-basic: #000000;
+  --color-bg-dark: #1a1d25;
+
+  --color-text-middle: #4e5d7c;
+  --color-text-light: #4e5d7c80;
+  --color-text-extra-light: #ffffff;
+  --color-shadow: #4e5d7c29;
+
+  --color-primary: #357efe;
+  --color-secondary-1: #1abc9c;
+  --color-secondary-2: #ffc736;
+
+  --min-width: 375px;
+  --max-width: 1392px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+}
