@@ -32,6 +32,7 @@
   border: 1px solid var(--color-text-middle);
   opacity: 0.08;
   transform: scaleY(0.5);
+  width: 100%;
 }
 
 .hr_header {

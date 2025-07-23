@@ -219,21 +219,23 @@ body {
 
 .capabilities__wrapper-1 {
   margin: 0;
-  display: grid;
-  grid-template-columns: 1fr;
+  display: flex;
+  flex-direction: column;
   gap: 65px;
 }
 
 .capability {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
   gap: 65px;
 }
 
 .capability__desc,
 .capability__img {
-  width: 50%;
+  width: 40%;
 }
 
 .capability__desc_h2 {
@@ -295,12 +297,7 @@ body {
   }
 
   .capabilities__wrapper-1 {
-    grid-template-columns: 1fr;
     gap: 48px;
-  }
-
-  .hr_capabilities {
-    grid-column: 1;
   }
 
   .capability__desc_h2 {
