@@ -25,6 +25,13 @@
             ><img class="logo" src="./images/finio.svg" alt="Логотип Finio"
           /></a>
           <nav class="navigation">
+            <input type="checkbox" id="burger-toggle">
+            <label for="burger-toggle" class="mobile-menu__burger-toggle" hidden>
+              <img
+              class="burger-toggle__img"
+              src="./images/mobile-menu.svg"
+              alt="Мобильное меню"
+            /></label>
             <ul class="menu__ul">
               <li class="menu__li">
                 <a href="#capabilities">Возможности</a>
@@ -34,6 +41,12 @@
               <li class="menu__li">
                 <a href="#support">Поддержка клиентов</a>
               </li>
+              <li class="menu__li"><button
+            class="button button_light menu__button menu__button_burger"
+            aria-label="Вход в личный кабинет"
+          >
+            Личный кабинет
+          </button></li>
             </ul>
           </nav>
           <button
@@ -41,16 +54,6 @@
             aria-label="Вход в личный кабинет"
           >
             Личный кабинет
-          </button>
-          <button
-            class="menu__mobile-menu"
-            aria-label="Кнопка раскрывающегося меню"
-          >
-            <img
-              class="mobile-menu__img"
-              src="./images/mobile-menu.svg"
-              alt="Мобильное меню"
-            />
           </button>
         </div>
       </div>
