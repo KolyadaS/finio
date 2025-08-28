@@ -246,17 +246,26 @@
           <button class="compare__button button button_light">
             Попробовать 14 дней бесплатно
           </button>
-          <div class="pic-slider__wrapper">
+          <div id="pic-slider" class="pic-slider__wrapper">
             <img
-              class="pic-slider__img"
-              src="./images/capability5.png"
-              alt="Сравнение Excel и Finio"
+              class="pic-slider__img pic-slider__img_1"
+              src="./images/capability5_1.png"
+              alt="Изображение Excel"
             />
+            <div id="top-pic" class="pic-slider__top-pic">
+              <img
+              class="pic-slider__img pic-slider__img_2"
+              src="./images/capability5_2.svg"
+              alt="Изображение Finio"
+            />
+            </div>
 
-            <div class="pic-slider__button-wrapper">
+            <div id="pic-slider__button-wrapper" class="pic-slider__button-wrapper">
               <button
+              id="pic-slider__button"
                 class="pic-slider__button"
                 aria-label="Кнопка слайдера, сравнивающего скриншоты Finio и Excel"
+                type="button"
               ></button>
             </div>
           </div>
@@ -642,5 +651,6 @@
         </div>
       </div>
     </footer>
+    <script src="./js/pic-compare-slider.js"></script>
   </body>
 </html>
