@@ -86,9 +86,6 @@
     padding: 24px 0 19px;
   }
 
-  .header__menu {
-  }
-
   .menu__ul {
     display: none;
     background-color: var(--color-primary);

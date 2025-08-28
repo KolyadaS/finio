@@ -13,6 +13,8 @@
 
   --min-width: 375px;
   --max-width: 1392px;
+
+  --pos: 50%;
 }
 
 * {
