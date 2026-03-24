@@ -526,67 +526,109 @@
       <!-- Блок Отзывы -->
       <section id="feedback">
         <h2 class="feedback__h2">Отзывы</h2>
-        <div class="feedback__wrapper">
-          <div class="feedback-data__wrapper">
-            <div class="feedback-data">
-              <h3 class="feedback-data__h2">
-                Впервые за долгое время увидела свои расходы и доходы как на
-                ладони.
-              </h3>
-              <p class="feedback-data__name">Дана Валеева</p>
-              <p class="feedback-data__role">Продавец Wildberries</p>
-              <!-- Карусель для мобильной версии  -->
-              <div class="feedback__carousel">
-                <button class="carousel__button">
-                  <img
-                    src="./images/dot_active.svg"
-                    alt="Кнопка 1 карусели изображений"
-                  />
-                </button>
-                <button class="carousel__button">
-                  <img
-                    src="./images/dot_inactive.svg"
-                    alt="Кнопка 2 карусели изображений"
-                  />
-                </button>
-                <button class="carousel__button">
-                  <img
-                    src="./images/dot_inactive.svg"
-                    alt="Кнопка 3 карусели изображений"
-                  />
-                </button>
-                <button class="carousel__button">
-                  <img
-                    src="./images/dot_inactive.svg"
-                    alt="Кнопка 4 карусели изображений"
-                  />
-                </button>
+
+        <div class="feedback-carousel-wrapper">
+          <input type="radio" id="f1" name="feedback-carousel" checked />
+          <input type="radio" id="f2" name="feedback-carousel" />
+          <input type="radio" id="f3" name="feedback-carousel" />
+          <input type="radio" id="f4" name="feedback-carousel" />
+
+          <div class="feedback-carousel__track">
+            <div class="feedback-carousel__card">
+              <div class="card__data">
+                <div class="feedback__img">
+                  <img src="./images/feedback1.svg" alt="Портрет Даны Валеевой" />
+                </div>
+                <div class="feedback-data">
+                  <p class="feedback-data__h2">Впервые за долгое время увидела свои расходы и доходы как на
+                      ладони.</p>
+                  <div class="feedback-data__name">Дана Валеева</div>
+                  <div class="feedback-data__role">Продавец Wildberries</div>
+                </div> 
+              </div>
+              <div class="card__nav-btns">
+                <button class="card__nav-btn card__nav-btn_prev" data-target="f4">
+                  <img src="./images/next.svg"
+                      alt="Кнопка Назад для карусели изображений"></button>
+                <button class="card__nav-btn card__nav-btn_next" data-target="f2">
+                  <img src="./images/next.svg"
+                      alt="Кнопка Далее для карусели изображений"></button>
+              </div>
+            </div>
+
+            <div class="feedback-carousel__card">
+              <div class="card__data">
+                <div class="feedback__img">
+                  <img src="./images/feedback2.jpg" alt="Портрет Семена Семеныча" />
+                </div>
+                <div class="feedback-data">
+                  <p class="feedback-data__h2">Сервис помогает держать финансы под контролем и видеть прогресс каждый день.</p>
+                  <div class="feedback-data__name">Семен Семеныч</div>
+                  <div class="feedback-data__role">Продавец Wildberries</div>
+                </div> 
+              </div>
+              <div class="card__nav-btns">
+                <button class="card__nav-btn card__nav-btn_prev" data-target="f1">
+                  <img src="./images/next.svg"
+                      alt="Кнопка Назад для карусели изображений"></button>
+                <button class="card__nav-btn card__nav-btn_next" data-target="f3">
+                  <img src="./images/next.svg"
+                      alt="Кнопка Далее для карусели изображений"></button>
+              </div>
+            </div>
+
+            <div class="feedback-carousel__card">
+              <div class="card__data">
+                <div class="feedback__img">
+                  <img src="./images/feedback3.jpg" alt="Портрет Степана Степаныча" />
+                </div>
+                <div class="feedback-data">
+                  <p class="feedback-data__h2">Наконец-то получилось откладывать на крупные цели, а не тратить всё в ноль.</p>
+                  <div class="feedback-data__name">Степан Степаныч</div>
+                  <div class="feedback-data__role">Предприниматель</div>
+                </div> 
+              </div>
+              <div class="card__nav-btns">
+                <button class="card__nav-btn card__nav-btn_prev" data-target="f2">
+                  <img src="./images/next.svg"
+                      alt="Кнопка Назад для карусели изображений"></button>
+                <button class="card__nav-btn card__nav-btn_next" data-target="f4">
+                  <img src="./images/next.svg"
+                      alt="Кнопка Далее для карусели изображений"></button>
+              </div>
+            </div>
+
+            <div class="feedback-carousel__card">
+              <div class="card__data">
+                <div class="feedback__img">
+                  <img src="./images/feedback4.jpg" alt="Портрет Ивана Иваныча" />
+                </div>
+                <div class="feedback-data">
+                  <p class="feedback-data__h2">Теперь могу планировать покупки без стресса и точно знаю, на что уходят деньги!</p>
+                  <div class="feedback-data__name">Иван Иваныч</div>
+                  <div class="feedback-data__role">Директор ООО "Рога и копыта"</div>
+                </div> 
+              </div>
+              <div class="card__nav-btns">
+                <button class="card__nav-btn card__nav-btn_prev" data-target="f3">
+                  <img src="./images/next.svg"
+                      alt="Кнопка Назад для карусели изображений"></button>
+                <button class="card__nav-btn card__nav-btn_next" data-target="f1">
+                  <img src="./images/next.svg"
+                      alt="Кнопка Далее для карусели изображений"></button>
               </div>
             </div>
           </div>
-          <div class="feedback__img">
-            <img src="./images/feedback.svg" alt="Портрет Даны Валеевой" />
-          </div>
-        </div>
-        <!-- Кнопки Назад и Далее для десктопной версии  -->
-        <div class="feedback__buttons-wrapper">
-          <div class="feedback__buttons">
-            <div class="feedback__prev-next-buttons">
-              <button class="feedback__button feedback__button_prev">
-                <img
-                  src="./images/next.svg"
-                  alt="Кнопка Назад для карусели изображений"
-                />
-              </button>
-              <button class="feedback__button feedback__button_next">
-                <img
-                  src="./images/next.svg"
-                  alt="Кнопка Далее для карусели изображений"
-                />
-              </button>
+
+          <div class="feedback-indicators">
+              <label for="f1" class="indicator indicator_f1"></label>
+              <label for="f2" class="indicator indicator_f2"></label>
+              <label for="f3" class="indicator indicator_f3"></label>
+              <label for="f4" class="indicator indicator_f4"></label>
             </div>
-          </div>
+          
         </div>
+        
       </section>
     </main>
 
@@ -624,17 +666,17 @@
         </div>
         <adress class="footer__contacts">
           <ul class="contacts__ul">
-            <li class="contacts__li">ИП Ларичев Антон Андреевич</li>
-            <li class="contacts__li">ИНН 773373765379</li>
-            <li class="contacts__li">ОГРИП 322774600208776</li>
+            <li class="contacts__li">ИП Михайлов Михаил Михайлович</li>
+            <li class="contacts__li">ИНН 123456789101</li>
+            <li class="contacts__li">ОГРИП 123456789012345</li>
             <li class="contacts__li">
               Эл. почта:
-              <a href="mailto:alarichev@gmail.com">alarichev@gmail.com</a>
+              <a href="mailto:alarichev@gmail.com">mymail@mymail.com</a>
             </li>
             <li class="contacts__li">
-              Тел.: <a href="tel:+79104357592">+7 (910) 435-75-92</a>
+              Тел.: <a href="tel:+79876543210">+7 (987) 654-32-10</a>
             </li>
-            <li class="contacts__li">Москва, Вилиса Лациса 25</li>
+            <li class="contacts__li">Москва, Боровицкая 89</li>
           </ul>
         </adress>
       </div>
@@ -642,7 +684,7 @@
       <hr class="hr hr_footer" />
 
       <div class="footer__wrapper-2">
-        <div class="footer__copyright">© 2022 Finio. Все права защищены.</div>
+        <div class="footer__copyright">© Finio. Все права защищены.</div>
         <div class="footer__payment-systems">
           <img
             src="./images/payment-method.svg"
@@ -652,5 +694,6 @@
       </div>
     </footer>
     <script src="./js/pic-compare-slider.js"></script>
+    <script src="./js/feedback-carousel.js"></script>
   </body>
 </html>
