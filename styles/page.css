@@ -387,8 +387,8 @@ body {
   max-height: 640px;
   border-radius: 16px;
   text-align: center;
-
   position: relative;
+  overflow: hidden;
 }
 
 .pic-slider__img {
